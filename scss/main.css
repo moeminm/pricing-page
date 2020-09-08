@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 1364px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 40vh;
+  background-color: #f9fff2;
+  background-image: url(/images/pattern.png);
+  background-position: center;
+  position: relative;
+}
+
+.hero__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.hero__navigation--links {
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.hero__navigation--links.cta {
+  padding: 7px 25px;
+  border-radius: 5px;
+  background-color: #410ff8;
+  color: white;
+  font-weight: 700;
+}
+
+.hero__navigation ul {
+  list-style: none;
+}
+
+.hero__navigation ul li {
+  display: inline-block;
+}
+
+.hero__navigation ul li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.hero__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 32%;
+}
+
+.hero__content--title {
+  font-size: 4.0625rem;
+  color: #211d1d;
+}
+
+.hero__content--desc {
+  font-size: 1.125rem;
+  color: #211d1d;
+  margin-top: 10px;
+}
+
+.hero__content--highlight {
+  color: #32bba4;
+  font-weight: 700;
+}
+
+.pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.pricing__card {
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  padding: 25px 35px;
+}
+
+.pricing__card--advancedtext {
+  color: white;
+}
+
+.pricing__card.advanced {
+  background-color: #410ff8;
+}
+
+.pricing__card--title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.pricing__card--titleadvanced {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.pricing__card--feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing__card--feature:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.pricing__card--span {
+  display: block;
+}
+
+.pricing__card--span.price {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #211d1d;
+}
+
+.pricing__card--span.priceadvanced {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+}
+
+.pricing__card--span.annual {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.pricing__card--span.annualadvanced {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #ab94ff;
+}
+
+.pricing__card--cta {
+  display: block;
+  padding: 15px 70px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background-color: #410ff8;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.pricing__card--ctaadvanced {
+  display: block;
+  padding: 15px 70px;
+  text-decoration: none;
+  text-align: center;
+  color: #410ff8;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.pricing__card--checkmarkadvanced {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background-color: white;
+  margin-right: 15px;
+}
+
+.pricing__card--checkmark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background-color: #c2b1fd;
+  margin-right: 15px;
+}
+
+.pricing__card--checkmark svg {
+  fill: #410ff8;
+}
+/*# sourceMappingURL=main.css.map */
